@@ -4,8 +4,8 @@
 
 ## 目录结构
 ```
-src/
-|
+software/
+|——src/
 ├── Entity/
 │ ├── Book.java // 图书类
 │ ├── Circle.java // 社交圈类
@@ -15,6 +15,7 @@ src/
 ├── Manager/
 │ ├── BookManager.java // 图书管理服务
 │ ├── CircleManager.java // 社交圈管理服务
+│ ├── FriendDAO.java // 朋友管理
 │ ├── FriendManager.java // 朋友管理服务
 │ ├── FriendService.java // 朋友服务
 │ └── UserManager.java // 用户管理服务
@@ -27,6 +28,8 @@ src/
 │ ├── BookDialog.java // 图书对话框
 │ ├── BookLibraryPanel.java // 图书馆面板
 │ ├── BookManagementPanel.java // 图书管理面板
+│ ├── CirclePanel.java // 圈子面板
+│ ├── FriendManagementPanel.java // 朋友管理面板
 │ ├── FriendProfileDialog.java // 朋友详情对话框
 │ ├── FriendSearchDialog.java // 朋友搜索对话框
 │ ├── LoginUI.java // 登录界面
